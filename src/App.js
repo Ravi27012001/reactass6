@@ -7,6 +7,7 @@ import Student from './component/student';
 import Navigation from './component/navigation';
 import AddStudent from './component/addstudent';
 import Detail from './component/detail';
+import Edit from './component/edit';
  
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
 <Route path="/contact" element={<Contact/>}/> 
 <Route path="/student" element={<Student/>}/> 
 <Route path="/addstudent" element={<AddStudent/>}/> 
+<Route path="/edit/:id" element={<Edit/>}/> 
 
 
  
