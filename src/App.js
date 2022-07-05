@@ -24,6 +24,7 @@ function App() {
 <Route path="/student" element={<Student/>}/> 
 <Route path="/addstudent" element={<AddStudent/>}/> 
 <Route path="/edit/:id" element={<Edit/>}/> 
+ 
 
 
  
